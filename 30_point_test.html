@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinatech - Khóa học lập trình</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .nav {
+            height: 100vh;
+            width: 200px;
+            position: fixed;
+            background-color: black;
+            padding-top: 20px;
+            color: white;
+        }
+
+        .nav a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .nav a:hover {
+            background-color: #333;
+        }
+        .content {
+            margin-left: 200px;
+            padding: 20px;
+        }
+        .header img{
+            width: 100px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .header p {
+            font-size: 18px;
+            color: #555;
+        }
+        h2 {
+            text-align: center;
+            font-size: 28px;
+            margin-top: 0;
+            color: #333;
+        }
+
+        .description {
+            text-align: center;
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 40px;
+            background-color: aliceblue;
+        }
+        .course-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .course {
+            width: 30%;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            border: none;
+        }
+
+        .course img {
+            width: 100px;
+            margin-bottom: 15px;
+            float: left;
+        }
+
+        .course h3 {
+            margin-bottom: 15px;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .course p {
+            font-size: 25px;
+            color: #444;
+            text-align: justify;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="#">Trang chủ</a>
+        <a href="#">Dịch vụ</a>
+        <a href="#">Sản phẩm</a>
+        <a href="#">Tin tức</a>
+        <a href="#">Diễn đàn</a>
+        <a href="#">Liên hệ</a>
+    </div>
+
+    <div class="content">
+        <div class="header">
+            <img src="vinatech.jpg" alt="vinatech logo" style ="width: 27%; height: auto;">
+            <h1>Vinatech</h1>
+            <p>Luôn đồng hành cùng bạn</p>
+            <p>Trịnh Trần Phương Quân</p>
+        </div>
+        <div class="description">
+        <h2>Bạn sẽ học được những gì?</h2>
+        <p>Vinatech mang đến cho bạn một lộ trình học lập trình từ cơ bản đến nâng cao, giúp bạn từng bước chinh phục thế giới công nghê. Đầu tiên, bạn sẽ được làm quen với những ngôn ngữ lập trình phổ biến như HTML, CSS, và JavaScript, giúp xây dựng các website cơ bản. Tiếp đến, bạn sẽ được học về lập trình hướng đối tượng với các ngôn ngữ mạnh mẽ như Python, Java, hoặc C#, cho phép bạn phát triển các ứng dụng phức tạp.</p>
+        </div>
+        <div class="course-section">
+            <div class="course">
+                <h2>HTML cơ bản</h2>
+                <img src="OIP.jpg">
+                <p>Khóa học HTML tại Vinatech, bạn sẽ được hướng dẫn từ những kiến thức cơ bản như cách sử dụng các thẻ HTML cơ bản cho đến các khái niệm nâng cao như cấu trúc tài liệu, biểu mẫu và các thuộc tính cần thiết...</p>
+            </div>
+            <div class="course">
+                <h2>JavaScript</h2>
+                <img src="OIP (1).jpg" alt="JavaScript">
+                <p>Trong khóa học JavaScript tại Vinatech,bạn sẽ được hướng dẫn từ các khái niệm cơ bản như biến,kiểu dữ liệu,cấu trúc điều khiển và hàm,đến các kĩ thuật nâng cao như lập trình hướng đối tượng,xử lí bất đồng bộ với Promise và async/await,và tương tác với DOM (Document Object Model).Bạn sẽ tìm hiểu cách sử dụng JavaScript để tạo các hiệu ứng động.Xây dựng các ứng dụng Web</p>
+            </div>
+            <div class="course">
+                <h2>CSS cơ bản</h2>
+                <img src="OIP (2).jpg" alt="CSS3 Icon">
+                <p>Trong khóa học CSS tại Vinatech, bạn sẽ được khám phá cách tạo ra các trang web đẹp mắt và chuyên nghiệp bằng cách sử dụng ngôn ngữ CSS để thiết kế giao diện. Bạn sẽ học cách tuỳ chỉnh bố cục trang web, sử dụng màu sắc, phông chữ, hình ảnh và khoảng cách giữa các phần tử để tạo ra trải nghiệm người dùng mượt mà. CSS hgiúp bạn kiểm soát hoàn toàn cách các thành phần HTML hiển thị trên trình duyệt, từ việc căn chỉnh, kích thước đến hiệu ứng động (animation) và chuyển động (tránitions).</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Vinatech - Luôn đồng hành cùng bạn</p>
+    </footer>
+
+</body>
+</html>
